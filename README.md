@@ -10,17 +10,15 @@
   <h3>Universidad Autónoma de Guadalajara</h3>
 </p>
 
-# Predicción de subscripciones de depósito a plazo a través de redes neuronales
-
-# Objetivo
+<h2>Objetivo</h2>
 Predecir si un cliente subscribirá un depósito a plazos.
 
-# Fuente
+<h2>Fuente</h2>
 Datos obtenidos de campañas de marketing de una institución bancaria de Portugal.<br>
 http://archive.ics.uci.edu/ml/datasets/Bank+Marketing# <br>
 [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
 
-# Características a considerar en el entranamiento de la red
+<h2>Características a considerar en el entranamiento de la red</h2>
 - Edad (age)
 - Estado marital (marital)
 - Hipoteca (housing)
