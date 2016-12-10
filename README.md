@@ -1,6 +1,10 @@
 # Predicción de subscripciones de depósito a plazo a través de redes neuronales
 
-<h2>Reconocimiento de Patrones</h2>
+<center>
+  <h2>Reconocimiento de Patrones</h2>
+  <h3>Abraham Sánchez</h3>
+  <h3>Universidad Autónoma de Guadalajara</h3>
+</center>
 
 # Predicción de subscripciones de depósito a plazo a través de redes neuronales
 
