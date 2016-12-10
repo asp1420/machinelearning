@@ -1,14 +1,8 @@
 # Predicción de subscripciones de depósito a plazo a través de redes neuronales
 
-<p>
-  <center>
-    <h2>Reconocimiento de Patrones</h2>
-  </center>
-</p>
-<p>
-  <h3>Abraham Sánchez</h3>
-  <h3>Universidad Autónoma de Guadalajara</h3>
-</p>
+<p style="text-align:center;">Reconocimiento de Patrones</p>
+<h3>Abraham Sánchez</h3>
+<h3>Universidad Autónoma de Guadalajara</h3>
 
 <h2>Objetivo</h2>
 Predecir si un cliente subscribirá un depósito a plazos.
