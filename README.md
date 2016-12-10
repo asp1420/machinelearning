@@ -23,3 +23,6 @@ http://archive.ics.uci.edu/ml/datasets/Bank+Marketing# <br>
 - Número de contactos realizados antes de esta campaña (previous)
 - Resultado de la campaña anterior (poutcome)
 - Subscrito? (y)
+
+<h2>Video</h2>
+[![Marketing Bancario]](https://www.youtube.com/watch?v=MpuUx92yBkU)
