@@ -1,1 +1,44 @@
+******************************************************************************
+						PROCEDIMIENTOS REALIZADOS EN R
+******************************************************************************
 
+1. Base de datos
+http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
+
+2. Cargar datos del dataset 
+data <- read.csv("C:/Users/AbrahamDell/Desktop/bank/bank.csv")
+
+3. Dar formato numérico y limpiar datos
+Datos a considerar:
+Edad (age)
+estado marital (marital)
+Hipoteca (housing)
+Tipo de contacto (contact)
+Mes de último contacto (month)
+Duración de la llamada (duration)
+Días transcurridos después de que el cliente fue contacto por última vez de una campaña anterior (pdays)
+Número de contactos realizados antes de esta campaña (previous)
+Resultado de la campaña anterior (poutcome)
+Subscrito? (y)
+
+data$job <- NULL
+data$marital <- as.numeric(data$marital)
+data$education <- NULL
+data$default <- NULL
+data$balance <- NULL
+data$housing <- ifelse(as.numeric(data$housing)==1,0,1)
+data$loan <- NULL
+data$contact <- as.numeric(data$contact)
+data$day <- NULL
+data$month <- as.numeric(data$month)
+data$campaign <- NULL
+data$poutcome <- as.numeric(data$poutcome)
+data$y <- ifelse(as.numeric(data$y)==1,0,1)
+
+4. Tomar un porcentaje de los datos para entrenamiento (~89%), pruebas (~11%)
+training <- data[1:4000,]
+test <- data[4001:4521,]
+
+5. Guardar archivos de entrenamiento y pruebas
+write.csv(training, "C:/Users/AbrahamDell/Desktop/bank/training.csv")
+write.csv(test, "C:/Users/AbrahamDell/Desktop/bank/test.csv")
