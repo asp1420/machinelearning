@@ -1,15 +1,15 @@
 # Predicción de subscripciones de depósito a plazo a través de redes neuronales
 
-Reconocimiento de Patrones
+<h2>Reconocimiento de Patrones</h2>
 
 # Predicción de subscripciones de depósito a plazo a través de redes neuronales
 
 # Objetivo
-Predecir si un cliente subscribirá un depósito a plazos
+Predecir si un cliente subscribirá un depósito a plazos.
 
 # Fuente
-Datos obtenidos de campañas de marketing de una institución bancaria de Portugal.
-http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#
+Datos obtenidos de campañas de marketing de una institución bancaria de Portugal.<br>
+http://archive.ics.uci.edu/ml/datasets/Bank+Marketing# <br>
 [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
 
 # Características a considerar en el entranamiento de la red
