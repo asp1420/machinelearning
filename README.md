@@ -25,4 +25,4 @@ http://archive.ics.uci.edu/ml/datasets/Bank+Marketing# <br>
 - Subscrito? (y)
 
 <h2>Video</h2>
-[![Marketing Bancario]](https://www.youtube.com/watch?v=MpuUx92yBkU)
+![Marketing Bancario](https://www.youtube.com/watch?v=MpuUx92yBkU)
