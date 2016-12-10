@@ -1,0 +1,30 @@
+******************************************************************************
+						PROCEDIMIENTOS REALIZADOS EN MATLAB
+******************************************************************************
+
+1. Cargar entradas en X, entrenamiento T y generar vector objetivo t (target)
+X=csvread('training.csv',1)'; % Entradas
+T=csvread('test.csv',1)'; % Entrenamiento
+t=X(10,:); % Objetivo
+
+2. Crear red MLP
+	- 4 neuronas en la capa oculta
+	- Función de activación Signoide
+	- Error minimo para convergencia = 0.01
+	- Tasa de aprendizaje = 0.001
+net=newff(X,t,[4],{'tansig'},'traingda');
+net.trainParam.goal=0.01;
+net.trainParam.lr=0.001;
+
+3. Entrenamiento de la red
+net = train(net, X, t);
+
+4. Simulación con datos de prueba
+s = sim(net,T);
+
+5. Comparar datos obtenidos
+c=[T(10,:); s];
+csvwrite('comp.csv', c');
+
+5. Simulación agregando ruido
+s = sim(net, T+0.2*rand(size(T)));
